@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hoster</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="container p-5 bg-amber-50">
+        <header class="flex justify-between m-1 ">
+            <section id="logo"
+            class="flex gap-2">
+                <img src="./assets/Logo.svg" alt="logo">
+                <a href="#" class="text-white  bg-gradient-to-r from-purple-500 to-pink-500 px-1 py-2 px-2  rounded-full">Hoster is hiring</a>
+            </section>
+            <a href="http://"><img src="./assets/bars-solid1.svg" alt="verticla bar"></a>
+            <nav class="hidden">
+                <ul>
+                   <li><a href="#">Home</a></li>
+                   <li><a href="#">About</a></li>
+                   <li><a href="#">Contact</a></li>
+                </ul>
+            </nav>
+            <button class="hidden">Join Now</button>
+        </header>
+        <main class="flex flex-col items-center mt-4">
+            <section id="banner" class="flex my-8 ">
+                <img src="assets/Blue-Shape.svg" alt="" srcset="" class="h-64 rotate-45  ">
+                <img src="assets/Pink-Shape.svg" alt="" srcset="" class="h-64 absolute rotate-[30deg] ">
+                <img src="assets/Purple-Shape.svg" alt="" srcset="" class="h-64 absolute rotate-[15deg]">
+                <img src="assets/Hero-Model.png" alt="" srcset=""  class="h-64 absolute">
+            </section>
+            <section id="form" class="flex flex-col gap-1">
+                <h1 class="text-5xl font-playfair font-bold leading-tight">Host your website in less than 5 minutes.</h1>
+                <p class="font-lato text-gray-400 ">With Hosterr,get your website up and running in no less than 5 minutes with the most competitive pricing packges available online.</p>
+                <form action="#" class="flex flex-col items-center justify-center my-2 ">
+                    <input type="email" name="email" id="email" placeholder="Enter e-mail address" class="px-3 py-5 rounded-md w-full placeholder:text-slate-400">
+                    <input type="submit" value="Join waitlist" class="w-full px-2 py-4 my-3 bg-blue-600 rounded-md text-white">
+                </form>
+                <section class="flex gap-x-7 my-1">
+                    <img src="assets/Checkmark.svg" alt="">
+                    <p>No spam, ever. Unsubscribe anytime.</p>
+                </section>
+            </section>
+        </main>
+        <footer class="flex flex-col gap-9 my-5">
+            <section id="socialmedialinks">
+                <ul class="flex gap-7">
+                    <li><a href="#">Facebook</a></li>
+                    <li><a href="#">Instagram</a></li>
+                    <li><a href="#">Twitter</a></li>
+                </ul>
+            </section>
+            <section id="talktoexpert" class="flex gap-5 ">
+                <img src="assets/Help-Avatar.svg" alt="">
+                <p>Have any questions?
+                    <br/>
+                    <a href="http://">Talk to Expert</a>
+                </p>
+            </section>
+        </footer>
+    </div>
+</body>
+</html>
