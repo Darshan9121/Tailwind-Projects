@@ -8,28 +8,33 @@
     <link rel="icon" href="assets/favicon-32x32.png" type="image/x-icon" />
   </head>
   <body>
-    <div class="wrapper xl:flex xl:justify-center xl:items-center">
+    <div class="p-5  ">
       <header>
+      <div class="flex flex-col gap-8  lg:justify-between w-full">
         <!-- top nav bar -->
         <nav>
-          <div class="logo">
-            <img src="assets/favicon-32x32.png" alt="logo" />
-            <p>Days<br />Coding</p>
-          </div>
-          <ul>
-            <li><a href="http://">Intro</a></li>
-            <li><a href="http://">Pricing</a></li>
-            <li><a href="http://">Features</a></li>
-            <li><a href="http://">Testimonials</a></li>
-          </ul>
-          <div class="sidebtn">
-            <button>Join Community</button>
+          <div class="flex flex-row justify-between items-center" >
+            <div class="flex flex-row items-center gap-1">
+              <img src="assets/favicon-32x32.png" alt="logo" />
+              <p>Days<br />Coding</p>
+            </div>
+            <ul class="hidden lg:flex lg:gap-4">
+              <li><a href="http://">Intro</a></li>
+              <li><a href="http://">Pricing</a></li>
+              <li><a href="http://">Features</a></li>
+              <li><a href="http://">Testimonials</a></li>
+            </ul>
+            <div class="sidebtn">
+              <button class="bg-stone-800 text-white text-center px-3 py-3 rounded">Join Community</button>
+            </div>
           </div>
         </nav>
         <!-- banner -->
-        <section>
+        <section >
+          <div class="flex flex-row gap-1">
           <!-- intro form -->
           <section>
+            <div>
             <h1><span>ATTEND LIVE</span> CLASSES EVERY WEEK</h1>
             <h2>
               Join founders, freelancers, designers, FAANG engineers, indie
@@ -37,36 +42,45 @@
               of coffee.
             </h2>
             <button>Join 24/7 Whatsapp + discord for $5/month</button>
+          </div>
           </section>
           <!-- banner -->
           <section>
-            <img src="assets/images/icon-courses.svg" alt="" srcset="" />
+            <div class="w-30 h-54">
+            <img src="assets/images/book.jpg" alt="" srcset="" />
+            </div>
           </section>
+        </div>
         </section>
         <!-- whatYouget -->
-        <section>
+        <section >
+          <div class="flex justify-center items-center">
           <!-- what you get -->
-          <ul>
+          <ul class="flex flex-row gap-8">
             <li>
-              <img src="assets/images/icon-guides.svg" alt="" /> 5+ Gudies for
+              <img src="assets/images/icon-guides.svg" alt=""  class="inline"/> 5+ Gudies for
               free
             </li>
             <li>
-              <img src="assets/images/icon-courses.svg" alt="" /> Exclusive
+              <img src="assets/images/icon-courses.svg" alt="" class="inline" /> Exclusive
               Coures & Projects
             </li>
             <li>
-              <img src="assets/images/icon-whatsapp.svg" alt="" /> 24/7 WhatsApp
+              <img src="assets/images/icon-whatsapp.svg" alt="" class="inline" /> 24/7 WhatsApp
               Support Group
             </li>
             <li>
-              <img src="assets/images/icon-sessions.svg" alt="" /> 1:1 Free
+              <img src="assets/images/icon-sessions.svg" alt=""  class="inline"/> 1:1 Free
               Session
             </li>
           </ul>
+        </div>
         </section>
+
+      </div>
       </header>
-      <main>
+      <main >
+        <div>
         <!-- Testimonial's -->
         <section>
           testimonials
@@ -114,6 +128,7 @@
                 <img src="assets/images/icon-star.svg" alt="" />
             </section>    
           </div>
+
           <div>
             <section>
               <img src="assets/images/avatars/avatar-umang.webp" alt="" />
@@ -135,16 +150,22 @@
                 <img src="assets/images/icon-star.svg" alt="" />
             </section>    
           </div>
+
         </section>
         <!-- pricing -->
-        <section>
+        <section >
+          <div class="flex flex-col gap-1 justify-center items-center">
+          <section class="flex flex-col justify-center items-center ">
+           
+             <h1>SIMPLE NO-TRICKS PRICING</h1>
+             <P>Everything you need to grow 10X for less than a coffee.</P>
+          
+          </section>
+          <div class="flex flex-row">
             <!-- pricing -->
-             <section>
-                <h1>SIMPLE NO-TRICKS PRICING</h1>
-                <P>Everything you need to grow 10X for less than a coffee.</P>
-             </section>
 
              <section>
+              <div>
                 <h2>Premium Elite Subscription</h2>
                 <p>Join founders,freelancers,designers,FAANG engineers,indie hackers,and more in our 24/7 WhatsApp Group for less than a cup of coffee.</p>
                 <section>
@@ -168,7 +189,9 @@
                         <img src="assets/images/icon-check.svg" alt="" srcset="">
                         <p>Career guidance</p>
                     </div>
-                </section>
+                  </section>
+               
+
                 <section>
                     <h4>Less than a cup of coffee</h4>
                     <span>&#x24;5<strike>&#x24;1000</strike></strik></span>
@@ -183,18 +206,21 @@
                     <span>100+ Active Members</span>
                 </section>
              </section>
-        
+            </div>
+            </div>
+          </div>
         </section>
             
         <!-- community -->
         <section>
-            <!-- community -->
-            <section>
+          <div class="flex flex-col gap-1 justify-center items-center">
+            <!-- <section class="flex flex-col justify-center items-center "> -->
                 <h1>EVERYTHING YOU NEED IN ONE COMMUNITY</h1>
                 <P>Unleashing your digital potential for lasting success</P>
-             </section>
-             <section>
-                <div>
+             <!-- </section> -->
+             <section class="px-36">
+             <div class="flex flex-row gap-5 justify-evenly items-center">
+               <div>
                     <section>
                       <img src="assets/images/illustration-mentors.svg" alt="" />
                     </section>
@@ -228,13 +254,17 @@
                     </section>
                     </div>
              </section>
+          </div>
         </section>
-      </main>
-      <footer>
+      </div>
+    </main>
+      <footer >
+        <div  class="my-5">
         <!-- social media links -->
         <section>
+          <div class="flex justify-center items-center my-10">
             <!-- social media link -->
-            <ul>
+            <ul class="flex flex-row gap-8">
                 <li><img src="assets/images/company-logos/adobe.svg" alt="" srcset=""></li>
                 <li><img src="assets/images/company-logos/airbnb.svg" alt="" srcset=""></li>
                 <li><img src="assets/images/company-logos/figma.svg" alt="" srcset=""></li>
@@ -242,58 +272,69 @@
                 <li><img src="assets/images/company-logos/google.svg" alt="" srcset=""></li>
                 <li><img src="assets/images/company-logos/dropbox.svg" alt="" srcset=""></li>
             </ul>
+          </div>
         </section>
 
 
 
         <!-- whatYouget2 -->
+        <div class="flex flex-row px-56   justify-evenly items-center "> 
         <section>
             <!-- what you get2 -->
               <!-- intro form -->
-          <section>
-            <section>
+          <div class="flex flex-col">
+           <section>
+            
+            <section class="flex flex-col gap-5 items-start">
             <h1>GAIN A COMPETITIVE EDGE IN JOB MARKET</h1>
             <p>Join founders,freelancers,designers,FAANG engineers,indie hackers,and more in our 24/7 WhatsApp Group for less than a cup of coffee.</p>
             <button>Join 24/7 Whatsapp + discord for $5/month</button>
-            </section>
-            <section>
-                <section>
+          </section>
+            <section class="flex flex-col gap-4">
+               
                     <h4>WHAT YOU'LL GET</h4>
-                </section>
-                <div class="items">
+                
+
+                <div class="items flex flex-row gap-3">
                     <img src="assets/images/icon-guides-2.svg" alt="" srcset="">
                     <p>Comprehensive guides,projects,&courses</p>
                 </div>
-                <div class="items">
+                <div class="items flex flex-row gap-3">
                     <img src="assets/images/icon-job.svg" alt="" srcset="">
                     <p>Exclusive job + internship postings</p>
                 </div>
-                <div class="items">
+                <div class="items flex flex-row gap-3">
                     <img src="assets/images/icon-tips.svg" alt="" srcset="">
                     <p>1:1 Career guidance & mentorship</p>
                 </div>
-            </section>
-        </section>
+          </section>
+        </div>
+         </section>
           <!-- banner -->
           <section>
-            <img src="assets/images/illustration-job.svg" alt="" srcset="" />
+          <div  class="w-[700px] h-[500px] hover:rotate-12 ">
+            <img src="assets/images/illustration-job.svg" alt="" srcset="" class="w-full h-full" />
+          </div>
           </section>
         </section>
+        </div>
         <!-- bottom footer -->
-        <section>
-            <div class="logo">
+        <section class="flex flex-col gap-8  lg:justify-between p-3">
+          <div class=" flex flex-row justify-between items-center">
+            <div  class="flex flex-row items-center gap-1">
                 <img src="assets/favicon-32x32.png" alt="logo" />
                 <p>Days<br />Coding</p>
               </div>
-              <p>2024 &#169; 30DaysCoding </p>
-                <ul>
+              <p class="hidden lg:block  text-stone-800 ">2024 &#169; 30DaysCoding </p>
+                <ul class="flex flex-row gap-5" >
                   <li><a href="http://"><img src="assets/images/icon-twitter.svg" alt=""></a></li>
                   <li><a href="http://"><img src="assets/images/icon-youtube.svg" alt=""></a></li>
                   <li><a href="http://"><img src="assets/images/icon-linkedin.svg" alt=""></a></li>
                   <li><a href="http://"><img src="assets/images/icon-instagram.svg" alt=""></a></li>
                 </ul>
-
+            </div>
         </section>
+      </div>
       </footer>
     </div>
   </body>
